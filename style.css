@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   
+ 
+   
+}
+body {
+/*background-color: #ffd23f;*/
+background-image: url("./IMAGES/bg-quiz.jpeg");
+background-repeat: no-repeat;
+background-size:auto cover;
+}
+
+.score_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 width: 550px;
+                background: #fff;
+                border-radius: 5px;
+                transform: translate(-50%, -50%) scale(0.9);
+                padding: 25px 30px 20px 30px;
+                pointer-events: none;
+                transition: all 0.3s ease;
+            } 
+            
+            
+            .score_box .btn,
+            .score_box .btn1{
+                font-size: 20px;
+                font-weight: 500;
+                color: #000;
+                padding: 15px 30px;
+                outline: none;
+                 border: 1px solid #ffd23f;
+                border-radius: 5px;
+                background: #fff;
+                cursor: pointer; 
+                top:10%;
+            }
+            
+a{
+    text-decoration: none;
+    color: black;
+}
+.input-icon{
+background: #f1dca7;
+    border: 1px solid #8b8c89;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+  
+   
+}
+input{
+    border: none;
+    background-color: #f0ead2;
+    height:40px;
+}
+
+input::placeholder{
+     text-align: center;
+    }
+ 
+footer{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+}
+footer .btn,
+footer .btn1
+{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #ffd23f;
+    border: 1px solid #ffd23f;
+    line-height: 10px;
+    
+    pointer-events: none;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+/*button {
+   margin-left: 40%;
+   margin-bottom:5% ;
+}*/
+.score_box .icon
+{
+    font-size: 100px;
+    color: #ffd23f;
+    margin-bottom: 10px;
+    margin-left: 40%;
+   
+}
+h1
+ {
+    margin-bottom: 10px;
+    margin-left: 40%;
+}
+.hello {
+    margin-left:10% ;
+}
+.complete_text #finalScore{
+    margin-left: 40%;
+    font-size:50px;
+    top:60%;
+}
+
+.score_box .complete_text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 29%;
+    margin-bottom:5% ;
+}
+.score_box .btn1 {
+    background-color: #ffd23f;
+}
+.fa-user{
+    padding: 10px;
+ 
+  color: white;
+/* min-width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px ;*/
+}
+
+
+
+  button {
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #ffd23f;
+    border: 1px solid #ffd23f;
+    line-height: 10px;
+    
+    pointer-events: none;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+  }
+  button:hover{
+      cursor: pointer;
+      box-shadow:5px 10px 18px #888888;
+      border:#fff solid 1px;
+      transform: scale(1.1);
+  }
+      
+  
+  button[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  .complete_text span {
+      color: #ffd23f;
+      font-weight: bold;
+    
+  }
+ 
+  .reg_box p {
+      text-align: center;
+      
+  }
+  .reg_box p  i {
+      display:flex ;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
