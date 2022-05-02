@@ -233,7 +233,7 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    color: #f1dca7;
+    color: #000;
     background: #ffd23f;
     border: 1px solid #8b8c89;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
