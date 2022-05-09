@@ -160,8 +160,6 @@ h1
     background: #ffd23f;
     border: 1px solid #ffd23f;
     line-height: 10px;
-    
-    pointer-events: none;
     transform: scale(0.95);
     transition: all 0.3s ease;
   }
