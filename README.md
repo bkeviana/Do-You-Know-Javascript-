@@ -8,6 +8,7 @@
    </ul>
    <p> FUN FACT: A Youtuber gave me the styling idea for this quiz, although I had to tweak- </p>
    <p> some things to my own standards and meet the criteria listed above! </p>
+   <a href="https://www.youtube.com/watch?v=pQr4O1OITJo"> link to the youtuber's channel here! he was the blueprint and inspiration for me. </a>
    <h1> Website: </h1>
    https://bkeviana.github.io/Do-You-Know-Javascript-/
    
