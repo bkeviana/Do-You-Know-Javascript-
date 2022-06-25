@@ -2,11 +2,12 @@
 <p> A few things about my quiz <p>
  <ul>
    <li> Every wrong answer reults in a penalty of losing 10 seconds. </li>
-   <li> If you choose the wrong answer, it will show you the correct  answer. </li>
+   <li> If you choose the wrong answer, it will show you the correct answer. </li>
    <li> HomePage, ResultsPage, HighScorePage,SaveInitials </li>
    <li> You will have 76 seconds to answer the questions. </li>
    </ul>
-   
+   <p> FUN FACT: A Youtuber gave me the styling idea for this quiz, although I had to tweak- </p>
+   <p> some things to my own standards and meet the criteria listed above! </p>
    <h1> Website: </h1>
    https://bkeviana.github.io/Do-You-Know-Javascript-/
    
